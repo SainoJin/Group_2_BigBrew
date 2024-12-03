@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    min-height: 100vh;
+    margin: 0;
+    font-family: Poppins;
+    color: #1E1E1E;
+    background-color: #CDCDCD;
+    background-image:
+    repeating-linear-gradient(
+        to right, transparent 0 150px, #0001 150px 151px
+    ),
+    repeating-linear-gradient(
+        to bottom, transparent 0 150px, #0001 150px 151px
+    ),
+    linear-gradient(to right, #CDCDCDcc, #CDCDCDcc),
+    url(images/bg.jpg);
+    cursor: url('images/cursor2.png'), auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: min(1200px, 90vw);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    height: 0px;
+    flex-wrap: wrap;
+}
+header h1{
+    font-family: "Karantina", system-ui;
+    font-size: 16vw;
+    line-height: 0.8em;
+}
+header .author{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header h3{
+    font-family: "Karantina", system-ui;
+    font-size: 5vw;
+}
+header .author div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .author div p:nth-child(2){
+    font-weight: 500;
+}
+
+header .author img{
+    width: 250px;
+}
+.banner{
+    margin-top: -50px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.product{
+    position: absolute;
+    left: 52%;
+    transform: translateX(-50%);
+    bottom: 170px;
+    z-index: 2;
+    width: 500px;
+    transition: 0.7s;
+}
+.product .soda{
+    position: absolute;
+    bottom: 0;
+    left: calc(50%);
+    transform: translateX(-50%);
+}
+.soda {
+  --left: 0px;
+  background: 
+      var(--url) var(--left),
+      url(images/tea4.png) 0 0;
+  background-size: auto 100%;
+  width: 180px;  /* Keeps the width the same */
+  height: 350px;  /* Adjusts the height automatically based on the aspect ratio */
+  max-height: 100vh;  /* Limits the height to 50% of the viewport height */
+  aspect-ratio: 2 / 4;
+  background-blend-mode: multiply;
+  transition: 0.8s;
+  mask-image: url(images/tea4.png);
+  mask-size: auto 100%;
+}
+
+.soda:nth-child(2){
+    opacity: 0;
+}
+.product:hover{
+    bottom: 200px;
+}
+.product:hover .soda:nth-child(2){
+    opacity: 1;
+    --left: 350px;
+}
+.product:hover .soda:nth-child(1){
+    opacity: 0;
+    --left: 500px;
+}
+
+.rock{
+    position: absolute;
+    inset: 0 0 0 0;
+    width: 100%;
+    pointer-events: none;
+}
+.rock img:nth-child(1){
+    position: absolute;
+    height: 250px;
+    left: 52%;
+    transform: translateX(-50%);
+    bottom: 110px;
+    transition: 0.7s;
+    z-index: 1;
+}
+.rock img:nth-child(2){
+    position: absolute;
+    height: 80%;
+    left: 0;
+    bottom: -100px;
+    rotate: -25deg;
+    transition: 0.7s;
+}
+.rock img:nth-child(3){
+    position: absolute;
+    height: 70%;
+    right: 0;
+    bottom: -100px;
+    rotate: -25deg;
+    transition: 0.7s;
+}
+.product:hover ~ .rock img:nth-child(1) {
+    transform: translateX(-50%) translateY(50px);
+}
+
+.product:hover ~ .rock img:nth-child(2) {
+    transform: translateX(-100px) translateY(100px);
+}
+
+.product:hover ~ .rock img:nth-child(3) {
+    transform: translateX(100px) translateY(100px);
+}
+.banner:has(.product:hover) .rock img:nth-child(1){
+    transform: translateX(-50%) translateY(50px);
+}
+.banner:has(.product:hover) .rock img:nth-child(2){
+    transform: translateX(-100px) translateY(100px);
+}
+.banner:has(.product:hover) .rock img:nth-child(3){
+    transform: translateX(100px) translateY(100px);
+}
+@media screen and (max-width: 1023px) {
+    
+    .soda{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .soda{
+        width: 250px;
+    }
+    header img{
+        display: none;
+    }
+    header .author{
+        width: 100%;
+    }
+
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #485461;
+  background-image: url('images/bggif1.gif');
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  transform-style: preserve-3d;
+  
+}
+
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  height: 3rem;
+}
+
+.menu {
+  max-width: 72rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 4rem; 
+    color: black;
+  
+}
+
+.logo span {
+  color: #9f6a1b; 
+}
+
+.logo img {
+    width: 80px; 
+    height: auto; 
+    vertical-align: middle; 
+    margin-left: 0px;
+}
+
+
+.hamburger-menu {
+  height: 4rem;
+  width: 3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: url('images/pointer.png'), auto;
+}
+
+.bar {
+  width: 1.9rem;
+  height: 1.5px;
+  border-radius: 2px;
+  background-color: #eee;
+  transition: 0.5s;
+  position: relative;
+}
+
+.bar:before,
+.bar:after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: #eee;
+  transition: 0.5s;
+}
+
+.bar:before {
+  transform: translateY(-9px);
+}
+
+.bar:after {
+  transform: translateY(9px);
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  left: 0;
+  z-index: 5;
+  overflow: hidden;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+
+header {
+  min-height: 100vh;
+  width: 100%;
+  background: url("bg.jpg") no-repeat top center / cover;
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(222, 184, 135, 1) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('images/bgbrew.jpg');
+}
+
+.inner {
+  max-width: 35rem;
+  text-align: center;
+  color: #fff;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 2.7rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.8rem;
+  background-color: #1179e7;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container.active .bar {
+  transform: rotate(360deg);
+  background-color: transparent;
+}
+
+.container.active .bar:before {
+  transform: translateY(0) rotate(45deg);
+}
+
+.container.active .bar:after {
+  transform: translateY(0) rotate(-45deg);
+}
+
+.container.active .main {
+  animation: main-animation 0.5s ease;
+  cursor: pointer;
+  transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+  cursor: url('images/pointer.png'), auto;
+}
+
+@keyframes main-animation {
+  from {
+    transform: translate(0);
+  }
+
+  to {
+    transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+  }
+}
+
+.links {
+  position: absolute;
+  width: 30%;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  color: white;
+  
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease; 
+  cursor: url('images/pointer.png'), auto; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -2px -2px 5px rgba(225, 143, 10, 0.8); 
+}
+
+
+.nav-btn:hover {
+  border: 5px solid #d88e1f; 
+  background-color: #fc8020d0; 
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), -4px -4px 10px rgba(225, 143, 10, 0.8); 
+  transform: scale(1.05); 
+}
+
+
+.nav-btn:focus {
+  outline: none;
+  border: 5px solid #d88e1f;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), -4px -4px 10px rgba(225, 143, 10, 0.8);
+}
+
+
+ul {
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: #eee;
+  padding: 0.7rem 0;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: hide 0.5s forwards ease;
+}
+
+.links a:hover {
+  color: #fff;
+}
+
+.container.active .links a {
+  animation: appear 0.5s forwards ease var(--i);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes hide {
+  from {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.shadow {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform-origin: left;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.shadow.one {
+  z-index: -1;
+  opacity: 0.15;
+}
+
+.shadow.two {
+  z-index: -2;
+  opacity: 0.1;
+}
+
+.container.active .shadow.one {
+  animation: shadow-one 0.6s ease-out;
+  transform: perspective(1300px) rotateY(20deg) translateZ(215px) scale(0.5);
+}
+
+@keyframes shadow-one {
+  0% {
+    transform: translate(0);
+  }
+
+  5% {
+    transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+  }
+
+  100% {
+    transform: perspective(1300px) rotateY(20deg) translateZ(215px) scale(0.5);
+  }
+}
+
+.container.active .shadow.two {
+  animation: shadow-two 0.6s ease-out;
+  transform: perspective(1300px) rotateY(20deg) translateZ(120px) scale(0.5);
+}
+
+@keyframes shadow-two {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+  }
+
+  100% {
+    transform: perspective(1300px) rotateY(20deg) translateZ(120px) scale(0.5);
+  }
+}
+
+.container.active .main:hover + .shadow.one {
+  transform: perspective(1300px) rotateY(20deg) translateZ(230px) scale(0.5);
+}
+
+.container.active .main:hover {
+  transform: perspective(1300px) rotateY(20deg) translateZ(340px) scale(0.5);
+}
