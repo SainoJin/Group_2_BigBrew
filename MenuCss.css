@@ -13,6 +13,888 @@ button {
   font-family: "Poppins", sans-serif;
   cursor: url('images/cursor2.png'), auto;
 }
+html {
+  scroll-behavior: smooth; 
+}
+
+.box1{
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/mocapraf.jpg);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+/* Prices Section */
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.facilities-col {
+  position: relative;
+  text-align: left; 
+  padding: 20px;
+}
+
+.facilities-col .left-image {
+  float: left; 
+  width: 200px; 
+  margin-left: -55px; 
+  margin-top: -10%;
+  transition: transform 0.3s ease;
+}
+
+.facilities-col .right-image {
+  float: right; 
+  width: 150px; 
+  margin-left: 10px; 
+  margin-right: 2%;
+  transition: transform 0.3s ease;
+}
+.facilities-col .right-image1 {
+  float: right; 
+  width: 150px;
+  margin-left: 10px;
+  margin-right: -30%;
+  transition: transform 0.3s ease;
+}
+
+.facilities-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+  clear: left; 
+  margin-left: -4%;
+}
+.facilities-col h4 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  text-align: right;
+  margin-right: -7%;
+  word-spacing: 70px;
+  color: #eee;
+}
+
+
+.facilities-col p {
+  margin: 0;
+  text-align: left;
+  clear: both;
+  margin-left: -6%;
+  color: #eee;
+}
+
+.facilities-col .left-image:hover, 
+.facilities-col .right-image:hover, 
+.facilities-col .right-image1:hover {
+  transform: scale(1.2); 
+}
+
+.box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/moca7.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+
+
+
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.facilities-col2 {
+  position: relative;
+  text-align: left; 
+  padding: 20px;
+}
+
+.facilities-col2 .left-image {
+  float: left; 
+  width: 200px; 
+  margin-left: -55px; 
+  margin-top: -10%;
+  transition: transform 0.3s ease;
+}
+
+.facilities-col2 .right-image {
+  float: right; 
+  width: 150px; 
+  margin-left: 10px; 
+  margin-right: 2%;
+  transition: transform 0.3s ease;
+}
+.facilities-col2 .right-image1 {
+  float: right; 
+  width: 150px;
+  margin-left: 10px;
+  margin-right: -30%;
+  transition: transform 0.3s ease;
+}
+
+.facilities-col2 h3 {
+  margin-top: 16px;
+  margin-bottom: 5px;
+  text-align: left;
+  clear: left; 
+  margin-left: 0%;
+}
+.facilities-col2 h4 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  text-align: right;
+  margin-right: -7%;
+  word-spacing: 70px;
+  color: #eee;
+}
+
+
+.facilities-col2 p {
+  margin: 0;
+  text-align: left;
+  clear: both;
+  margin-left: -7%;
+  color: #eee;
+}
+
+.facilities-col2 .left-image:hover, 
+.facilities-col2 .right-image:hover, 
+.facilities-col2 .right-image1:hover {
+  transform: scale(1.2); 
+}
+
+.box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/machapraf.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+/*---Prices---*/
+
+
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.facilities-col3 {
+  position: relative;
+  text-align: left; 
+  padding: 20px;
+}
+
+.facilities-col3 .left-image {
+  float: left; 
+  width: 200px; 
+  margin-left: -55px; 
+  margin-top: -10%;
+  transition: transform 0.3s ease;
+}
+
+.facilities-col3 .right-image {
+  float: right; 
+  width: 150px; 
+  margin-left: 10px; 
+  margin-right: 2%;
+  transition: transform 0.3s ease;
+}
+.facilities-col3 .right-image1 {
+  float: right; 
+  width: 150px;
+  margin-left: 10px;
+  margin-right: -30%;
+  transition: transform 0.3s ease;
+}
+
+.facilities-col3 h3 {
+  margin-top: 16px;
+  margin-bottom: 5px;
+  text-align: left;
+  clear: left; 
+  margin-left: -1%;
+}
+.facilities-col3 h4 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  text-align: right;
+  margin-right: -7%;
+  word-spacing: 70px;
+  color: #eee;
+}
+
+
+.facilities-col3 p {
+  margin: 0;
+  text-align: left;
+  clear: both;
+  margin-left: -7%;
+  color: #eee;
+}
+
+.facilities-col3 .left-image:hover, 
+.facilities-col3 .right-image:hover, 
+.facilities-col3 .right-image1:hover {
+  transform: scale(1.2); 
+}
+
+.box4{
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/1.png);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+/*---Prices---*/
+
+
+.facilities {
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+
+.facilities-col4 {
+position: relative;
+text-align: left; 
+padding: 20px;
+}
+
+.facilities-col4 .left-image {
+float: left; 
+width: 200px; 
+margin-left: -55px; 
+margin-top: -10%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col4 .right-image {
+float: right; 
+width: 150px; 
+margin-left: 10px; 
+margin-right: 2%;
+transition: transform 0.3s ease;
+}
+.facilities-col4 .right-image1 {
+float: right; 
+width: 150px;
+margin-left: 10px;
+margin-right: -30%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col4 h3 {
+margin-top: 16px;
+margin-bottom: 5px;
+text-align: left;
+clear: left; 
+margin-left: -2%;
+}
+.facilities-col4 h4 {
+margin-top: 16px;
+margin-bottom: 0px;
+text-align: right;
+margin-right: -7%;
+word-spacing: 70px;
+color: #eee;
+}
+
+
+.facilities-col4 p {
+margin: 0;
+text-align: left;
+clear: both;
+margin-left: -7%;
+color: #eee;
+}
+
+.facilities-col4 .left-image:hover, 
+.facilities-col4 .right-image:hover, 
+.facilities-col4 .right-image1:hover {
+transform: scale(1.2); 
+}
+
+.box5{
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/2.png);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+/*---Prices---*/
+
+
+.facilities {
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+
+.facilities-col5 {
+position: relative;
+text-align: left; 
+padding: 20px;
+}
+
+.facilities-col5 .left-image {
+float: left; 
+width: 200px; 
+margin-left: -55px; 
+margin-top: -10%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col5 .right-image {
+float: right; 
+width: 150px; 
+margin-left: 10px; 
+margin-right: 2%;
+transition: transform 0.3s ease;
+}
+.facilities-col5 .right-image1 {
+float: right; 
+width: 150px;
+margin-left: 10px;
+margin-right: -30%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col5 h3 {
+margin-top: 16px;
+margin-bottom: 5px;
+text-align: left;
+clear: left; 
+margin-left: -2%;
+}
+.facilities-col5 h4 {
+margin-top: 16px;
+margin-bottom: 0px;
+text-align: right;
+margin-right: -7%;
+word-spacing: 70px;
+color: #eee;
+}
+
+
+.facilities-col5 p {
+margin: 0;
+text-align: left;
+clear: both;
+margin-left: -7%;
+color: #eee;
+}
+
+.facilities-col5 .left-image:hover, 
+.facilities-col5 .right-image:hover, 
+.facilities-col5 .right-image1:hover {
+transform: scale(1.2); 
+}
+
+.box6{
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/3.png);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+/*---Prices---*/
+
+
+.facilities {
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+
+.facilities-col6 {
+position: relative;
+text-align: left; 
+padding: 20px;
+}
+
+.facilities-col6 .left-image {
+float: left; 
+width: 200px; 
+margin-left: -55px; 
+margin-top: -10%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col6 .right-image {
+float: right; 
+width: 150px; 
+margin-left: 10px; 
+margin-right: 2%;
+transition: transform 0.3s ease;
+}
+.facilities-col6 .right-image1 {
+float: right; 
+width: 150px;
+margin-left: 10px;
+margin-right: -30%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col6 h3 {
+margin-top: 16px;
+margin-bottom: 5px;
+text-align: left;
+clear: left; 
+margin-left: -2%;
+}
+.facilities-col6 h4 {
+margin-top: 16px;
+margin-bottom: 0px;
+text-align: right;
+margin-right: -7%;
+word-spacing: 70px;
+color: #eee;
+}
+
+
+.facilities-col6 p {
+margin: 0;
+text-align: left;
+clear: both;
+margin-left: -7%;
+color: #eee;
+}
+
+.facilities-col6 .left-image:hover, 
+.facilities-col6 .right-image:hover, 
+.facilities-col6 .right-image1:hover {
+transform: scale(1.2); 
+}
+
+
+.box7{
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/4.png);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+/*---Prices---*/
+
+
+.facilities {
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+
+.facilities-col7 {
+position: relative;
+text-align: left; 
+padding: 20px;
+}
+
+.facilities-col7 .left-image {
+float: left; 
+width: 200px; 
+margin-left: -55px; 
+margin-top: -10%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col7 .right-image {
+float: right; 
+width: 150px; 
+margin-left: 10px; 
+margin-right: 2%;
+transition: transform 0.3s ease;
+}
+.facilities-col7 .right-image1 {
+float: right; 
+width: 150px;
+margin-left: 10px;
+margin-right: -30%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col7 h3 {
+margin-top: 16px;
+margin-bottom: 5px;
+text-align: left;
+clear: left; 
+margin-left: 0%;
+}
+.facilities-col7 h4 {
+margin-top: 16px;
+margin-bottom: 0px;
+text-align: right;
+margin-right: -7%;
+word-spacing: 70px;
+color: #eee;
+}
+
+
+.facilities-col7 p {
+margin: 0;
+text-align: left;
+clear: both;
+margin-left: -7%;
+color: #eee;
+}
+
+.facilities-col7 .left-image:hover, 
+.facilities-col7 .right-image:hover, 
+.facilities-col7 .right-image1:hover {
+transform: scale(1.2); 
+}
+
+.box8{
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/5.png);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+/*---Prices---*/
+
+
+.facilities {
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+
+.facilities-col8 {
+position: relative;
+text-align: left; 
+padding: 20px;
+}
+
+.facilities-col8 .left-image {
+float: left; 
+width: 200px; 
+margin-left: -55px; 
+margin-top: -10%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col8 .right-image {
+float: right; 
+width: 150px; 
+margin-left: 10px; 
+margin-right: 2%;
+transition: transform 0.3s ease;
+}
+.facilities-col8 .right-image1 {
+float: right; 
+width: 150px;
+margin-left: 10px;
+margin-right: -30%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col8 h3 {
+margin-top: 16px;
+margin-bottom: 5px;
+text-align: left;
+clear: left; 
+margin-left: -4%;
+}
+.facilities-col8 h4 {
+margin-top: 16px;
+margin-bottom: 0px;
+text-align: right;
+margin-right: -7%;
+word-spacing: 70px;
+color: #eee;
+}
+
+
+.facilities-col8 p {
+margin: 0;
+text-align: left;
+clear: both;
+margin-left: -7%;
+color: #eee;
+}
+
+.facilities-col8 .left-image:hover, 
+.facilities-col8 .right-image:hover, 
+.facilities-col8 .right-image1:hover {
+transform: scale(1.2); 
+}
+
+.box9{
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/6.png);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+/*---Prices---*/
+
+
+.facilities {
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+
+.facilities-col9 {
+position: relative;
+text-align: left; 
+padding: 20px;
+}
+
+.facilities-col9 .left-image {
+float: left; 
+width: 200px; 
+margin-left: -55px; 
+margin-top: -10%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col9 .right-image {
+float: right; 
+width: 150px; 
+margin-left: 10px; 
+margin-right: 2%;
+transition: transform 0.3s ease;
+}
+.facilities-col9 .right-image1 {
+float: right; 
+width: 150px;
+margin-left: 10px;
+margin-right: -30%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col9 h3 {
+margin-top: 16px;
+margin-bottom: 5px;
+text-align: left;
+clear: left; 
+margin-left: -6%;
+}
+.facilities-col9 h4 {
+margin-top: 16px;
+margin-bottom: 0px;
+text-align: right;
+margin-right: -7%;
+word-spacing: 70px;
+color: #eee;
+}
+
+
+.facilities-col9 p {
+margin: 0;
+text-align: left;
+clear: both;
+margin-left: -7%;
+color: #eee;
+}
+
+.facilities-col9 .left-image:hover, 
+.facilities-col9 .right-image:hover, 
+.facilities-col9 .right-image1:hover {
+transform: scale(1.2); 
+}
+
+.box10{
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/7.png);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+/*---Prices---*/
+
+
+.facilities {
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+
+.facilities-col10 {
+position: relative;
+text-align: left; 
+padding: 20px;
+}
+
+.facilities-col10 .left-image {
+float: left; 
+width: 200px; 
+margin-left: -55px; 
+margin-top: -10%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col10 .right-image {
+float: right; 
+width: 150px; 
+margin-left: 10px; 
+margin-right: 2%;
+transition: transform 0.3s ease;
+}
+.facilities-col10 .right-image1 {
+float: right; 
+width: 150px;
+margin-left: 10px;
+margin-right: -30%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col10 h3 {
+margin-top: 16px;
+margin-bottom: 5px;
+text-align: left;
+clear: left; 
+margin-left: -3%;
+}
+.facilities-col10 h4 {
+margin-top: 16px;
+margin-bottom: 0px;
+text-align: right;
+margin-right: -7%;
+word-spacing: 70px;
+color: #eee;
+}
+
+
+.facilities-col10 p {
+margin: 0;
+text-align: left;
+clear: both;
+margin-left: -7%;
+color: #eee;
+}
+
+.facilities-col10 .left-image:hover, 
+.facilities-col10 .right-image:hover, 
+.facilities-col10 .right-image1:hover {
+transform: scale(1.2); 
+}
+
+.box11{
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/8.png);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+/*---Prices---*/
+
+
+.facilities {
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+
+.facilities-col11 {
+position: relative;
+text-align: left; 
+padding: 20px;
+}
+
+.facilities-col11 .left-image {
+float: left; 
+width: 200px; 
+margin-left: -55px; 
+margin-top: -10%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col11 .right-image {
+float: right; 
+width: 150px; 
+margin-left: 10px; 
+margin-right: 2%;
+transition: transform 0.3s ease;
+}
+.facilities-col11 .right-image1 {
+float: right; 
+width: 150px;
+margin-left: 10px;
+margin-right: -30%;
+transition: transform 0.3s ease;
+}
+
+.facilities-col11 h3 {
+margin-top: 16px;
+margin-bottom: 5px;
+text-align: left;
+clear: left; 
+margin-left: -3%;
+}
+.facilities-col11 h4 {
+margin-top: 16px;
+margin-bottom: 0px;
+text-align: right;
+margin-right: -7%;
+word-spacing: 70px;
+color: #eee;
+}
+
+
+.facilities-col11 p {
+margin: 0;
+text-align: left;
+clear: both;
+margin-left: -7%;
+color: #eee;
+}
+
+.facilities-col11 .left-image:hover, 
+.facilities-col11 .right-image:hover, 
+.facilities-col11 .right-image1:hover {
+transform: scale(1.2); 
+}
 
 .container {
   min-height: 100vh;
@@ -605,28 +1487,5 @@ ul {
   cursor: url('images/pointer.png'), auto;
 }
 
-
-
-/*-----footer-----*/
-
-.footer{
-  width: 100%;
-  text-align: center;
-  padding: 30px 0;
-}
-.footer h4{
-  margin-bottom: 25px;
-  margin-top: 20px;
-  font-weight: 600;
-}
-.icons .fa{
-  color: #f44336;
-  margin: 0 13px;
-  cursor: pointer;
-  padding: 18px 0;
-}
-.fa-heart-o{ 
-  color: #f44336;
-}
 
 
